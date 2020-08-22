@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "eats-explorer",
+  "version": "0.0.5",
+  "description": "Scraping Uber Eats",
+  "main": "scraper.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdaigo/eats-explorer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdaigo/eats-explorer/issues"
+  },
+  "homepage": "https://github.com/sdaigo/eats-explorer#readme",
+  "devDependencies": {
+    "puppeteer": "^5.2.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "csv-parse": "^4.12.0",
+    "csv-stringify": "^5.5.1",
+    "date-fns": "^2.15.0",
+    "fs-extra": "^9.0.1",
+    "ramda": "^0.27.1"
+  }
+}
